@@ -1,0 +1,78 @@
+body{
+    background-image: url(zadni.jpg);
+    width: 1855px;
+    height: 2160px;
+}
+
+h1{
+    color: white;
+    font-size: 64px;
+    
+}
+
+.colonka{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.upper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 50px;
+}
+
+.topbody{
+    display: flex;
+    flex-direction: row;
+}
+
+.buynow{
+    display: flex;
+    flex-direction: column;
+}
+
+.spanbtn{
+    display: flex;
+    flex-direction: row;
+}
+
+.onetime{
+    position: absolute;
+    left: 218px;
+    top: 580px;
+}
+
+.buttombody{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.fourimg{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.twoimg{
+    display: flex;
+    flex-direction: column;
+}
+
+.nexttwo{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    color: white;
+    border-radius: 8px;
+    width: 110px;
+    height: 52px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 5px;
+}
