@@ -72,7 +72,4 @@ button{
     width: 110px;
     height: 52px;
     font-size: 18px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
-    border-radius: 5px;
 }
