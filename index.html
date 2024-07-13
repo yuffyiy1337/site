@@ -1,44 +1,53 @@
 <header>
+    <title>KROSOVOK.NET</title>
     <link rel="stylesheet" href="style.css">
     <div class="upper">
         <h1 style="text-shadow: black 5px 5px 10px;"> KROSOVOK.NET </h1>
+        
         <div class="btn">
-                <button style="background-color: black; position: relative; left: 600px; top: 50px;"> sign in </button>
-                <button style="background-color: black; position: relative; left: 700px; top: 50px;"> login in </button>
-                <button style="background-color: black; position: relative; left: 800px; top: 50px;"> contact us  </button>
+                <button onclick="showPopup()" style="background-color: black; position: relative; left: 600px; top: 50px;"> sign in </button>
+                <button onclick="showPopup()" style="background-color: black; position: relative; left: 700px; top: 50px;"> login in </button>
+                <button onclick="showPopup()" style="background-color: black; position: relative; left: 800px; top: 50px;"> contact us  </button>
         </div>
     </div>    
 </header>
 
 <main>
+    <div id="popup" class="popup">
+        <p>Don't working</p>
+        <button onclick="hidePopup()" style="background-color: black;">Close</button>
+    </div>
+    
     <div class="topbody">
         <div class="buynow">
             <img src="AND.png">
+            
             <span class="onetime">
-                <button style="background-color: red;">BUY NOW</button>
+                <button onclick="showPopup()" style="background-color: red;">BUY NOW</button>
             </span>
         </div>
         <img style="position: absolute; top: 200px; left: 700px;" src="greentwo.png" width="650" height="500">
         <span class="colonka">
-            <img style="border-radius: 30px; position: relative; left: 700px;" src="redone.jpg" width="200" height="150">
-            <img style="border-radius: 30px;  position: relative; left: 700px; top: 30px;" src="greenone.jpg" width="200" height="150">
-            <img style="border-radius: 30px;  position: relative; left: 700px; top: 60px;" src="pinkone.jpg" width="200" height="150">
+            <img onclick="showPopup()" style="border-radius: 30px; position: relative; left: 700px;" src="redone.jpg" width="200" height="150">
+            <img onclick="showPopup()" style="border-radius: 30px;  position: relative; left: 700px; top: 30px;" src="greenone.jpg" width="200" height="150">
+            <img onclick="showPopup()" style="border-radius: 30px;  position: relative; left: 700px; top: 60px;" src="pinkone.jpg" width="200" height="150">
         </span>
      </div>
      
      <p style="font-size: 64px; text-align: center; color: white; text-shadow: black 5px 5px 10px;">OUR COLLECTION</p>
      
      <div class="buttombody">
-        <img style="border-radius: 30px; margin-left: 50px;" src="forsale22.jpg">
+        <img onclick="showPopup()" style="border-radius: 30px; margin-left: 50px;" src="forsale22.jpg">
+        
         <div class="fourimg">
             <span class="twoimg">
-                <img style="border-radius: 30px; position: relative; left: 100px;" src="airFORCE.jpg" width="350" height="250">
-                <img style="border-radius: 30px; position: relative; left: 100px; top: 100px;" src="airJORDAN.jpg" width="350" height="250">
+                <img onclick="showPopup()" style="border-radius: 30px; position: relative; left: 100px;" src="airFORCE.jpg" width="350" height="250">
+                <img onclick="showPopup()" style="border-radius: 30px; position: relative; left: 100px; top: 100px;" src="airJORDAN.jpg" width="350" height="250">
             
             </span>
             <span class="nexttwo">
-                <img style="border-radius: 30px; position: relative; left: 200px;" src="vanSHOES.jpg" width="350" height="250">
-                <img style="border-radius: 30px; position: relative; left: 200px; top: 100px;" src="blackone.jpg" width="350" height="250">
+                <img onclick="showPopup()" style="border-radius: 30px; position: relative; left: 200px;" src="vanSHOES.jpg" width="350" height="250">
+                <img onclick="showPopup()" style="border-radius: 30px; position: relative; left: 200px; top: 100px;" src="blackone.jpg" width="350" height="250">
             </span>
         </div>
      </div>
@@ -46,10 +55,19 @@
 
 <body>
 
+
 </body>
 
-
+<script src="core.js"></script>
 
 <footer>
+<div class="downer">
+<h2 style="text-shadow: black 5px 5px 10px; color: white; font-size: 24px; position: relative; left: 75px; top: 150px;"> technical support: krosovoknetyTECH@gmail.com</h2>
 
+    <div class="btn">
+        <button onclick="showPopup()" style="background-color: black; position: relative; left: 175px; top: 150px;"> sign in </button>
+        <button onclick="showPopup()" style="background-color: black; position: relative; left: 275px; top: 150px;"> login in </button>
+        <button onclick="showPopup()" style="background-color: black; position: relative; left: 375px; top: 150px;"> contact us  </button>
+</div>
+</div>
 </footer>

@@ -1,13 +1,30 @@
 body{
-    background-image: url(zadni.jpg);
+    background-image: url(zadni2.jpg);
     width: 1855px;
-    height: 2160px;
+    height: 1800px;
+}
+
+footer{
+
 }
 
 h1{
     color: white;
     font-size: 64px;
     
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 1000;
 }
 
 .colonka{
@@ -17,6 +34,13 @@ h1{
 }
 
 .upper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 50px;
+}
+
+.downer{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
